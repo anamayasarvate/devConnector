@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://mongo:GZgkbSFmEsueG0ft@devconnector-vvq7t.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "anamayJwtSecret",
+  "githubClientId": "9d394f427ac5993273c8",
+  "githubSecret": "9d32a0c852265ba292f51ea778cc224753a58c4b"
+}
