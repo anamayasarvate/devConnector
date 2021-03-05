@@ -10,6 +10,10 @@ const app = express();
 // Connect to DB
 connectDB();
 
+// ONLY USE FOR LOCAL DEVELOPMENT (NOT NEEDED AND CAN BE OMITTED IN LOCAL DEVELOPMENT AS WELL) START
+// app.get('/', (req, res) => res.send('API Running'));
+// ONLY USE FOR LOCAL DEVELOPMENT (NOT NEEDED AND CAN BE OMITTED IN LOCAL DEVELOPMENT AS WELL) END
+
 // Init Middleware
 app.use(express.json({ extended: false }));
 
